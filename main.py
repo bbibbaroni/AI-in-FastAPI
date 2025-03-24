@@ -102,5 +102,3 @@ async def evaluate_text(input_data: TextInput):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
-# Run with: uvicorn main:app --reload
